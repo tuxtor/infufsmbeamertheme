@@ -1,0 +1,78 @@
+% Name           : beamerthemeinfufsm.sty
+% Author         : Victor Orozco (vlopez@inf.ufsm.br)
+% Version        : 0.1
+% Created on     : 21.08.2013
+% Last Edited on : 21.08.2013
+% Copyright      : Copyright (c) 2013 by Victor Orozco. All rights reserved.
+% License        : This file may be distributed and/or modified under the
+%                  GNU Public License.
+% Description    : Beamer theme using UFSM's fonds and InfUFSM's logo/colors 
+%                   --> http://www.inf.ufsm.br/index
+%                   based on Benjamin Weiss template, available at 
+%                   https://github.com/hsrmbeamertheme/hsrmbeamertheme
+
+\documentclass{beamer}
+
+\usepackage[english]{babel}
+%\usepackage[T1]{fontenc}
+
+\usetheme{infufsm}
+
+\title{inf.UFSM Beamer Theme}
+\subtitle{Minimalist Demo}
+\author{Victor Orozco}
+\institute{{\Medium PPGI} UFSM}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section*{TOC}
+\begin{frame}
+	\frametitle{TOC}
+	\tableofcontents[hideallsubsections]
+\end{frame}
+
+\section{Introduction}
+
+\begin{frame}{Introduction}
+	At some Brazilian Computer Science event (I think it was at SbSeg '12) I saw that many computer science students at Brazil accustom to present their slides with a graphic style provided by their program (Very cool IMHO).
+	 
+	However my program at UFSM (\url{http://w3.ufsm.br/ppgi/}) didn't had its own style. Hence, on an insomnia-night right after two Red Bulls and some pages of my dissertation thesis I wrote a modification of Benjamin Weiss's LaTeX template (\url{https://github.com/hsrmbeamertheme}.)
+\end{frame}
+	
+\begin{frame}{Introduction}
+	At this time this template has two ``main contributions'':
+	
+	\begin{itemize}
+	\item Usage of UFSM visual identity (fonts and logo available at \url{http://sucuri.cpd.ufsm.br/portalweb/conteudo/idvisual.php})
+	\item Usage of Inf visual identity (logo available at \url{http://www.inf.ufsm.br/index/servicos/identidade-visual}, fonts an colors were ``stolen'' from site's css . . .)
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{License}
+	This template is distributed under the terms of GNU Public License in conformity with Benjamin's license ;). If you have some suggestions or you wanna implement a ppt/odp equivalent, go on and fork it on my github! \url{http://www.github.com/tuxtor}
+\end{frame}
+
+\begin{frame}{Restrictions}
+	To use this template you need to . . .
+	\begin{itemize}
+	\item Install UFSM's fonts at your system
+	\item Ensure that you TeX distribution has fontspec package installed
+	\item Configure your TeX build system to use LuaTex or XeLaTeX as engines
+	\end{itemize}
+\end{frame}
+
+\section{Lorem ipsum}
+\begin{frame}{Lorem ipsum}
+	Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem  ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+\end{frame}
+
+\end{document}
+
+
+
+
+
+
